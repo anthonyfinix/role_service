@@ -1,0 +1,7 @@
+GET http://localhost:3006/role
+###
+POST http://localhost:3006/role
+###
+PUT http://localhost:3006/role
+###
+DELETE http://localhost:3006/role

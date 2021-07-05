@@ -1,0 +1,7 @@
+GET http://localhost:3006/permission
+###
+POST http://localhost:3006/permission
+###
+PUT http://localhost:3006/permission
+###
+DELETE http://localhost:3006/permission

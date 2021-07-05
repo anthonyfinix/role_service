@@ -1,0 +1,7 @@
+GET http://localhost:3006/entity
+###
+POST http://localhost:3006/entity
+###
+PUT http://localhost:3006/entity
+###
+DELETE http://localhost:3006/entity
