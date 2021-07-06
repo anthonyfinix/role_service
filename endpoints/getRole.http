@@ -1,0 +1,2 @@
+GET http://localhost:3006?role=admin
+Content-Type: application/json
