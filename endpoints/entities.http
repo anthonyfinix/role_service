@@ -1,6 +1,11 @@
 GET http://localhost:3006/entity
 ###
 POST http://localhost:3006/entity
+Content-Type: application/json
+
+{
+    "name":"user"
+}
 ###
 PUT http://localhost:3006/entity
 ###

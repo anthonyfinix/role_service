@@ -1,0 +1,12 @@
+POST http://localhost:3006/
+Content-Type: application/json
+
+{
+    "role":"admin",
+    "entities":[
+        {
+            "name":"user",
+            "permissions":{}
+        }
+    ]
+}
