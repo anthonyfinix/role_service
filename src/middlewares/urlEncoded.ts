@@ -5,7 +5,9 @@ export interface urlEncodedParamInterface {
 }
 export default (options?: urlEncodedParamInterface) => {
     if (!options) {
-        options = {}
+        options = {
+            extended: configuration.express.default_url_encoding_extended
+        }
     } else {
         if (!options.extended) options.extended = configuration.express.default_url_encoding_extended;
     }
