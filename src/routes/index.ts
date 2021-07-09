@@ -16,7 +16,7 @@ import getController from '../controllers/get';
 import get from '../middlewares/validators/get';
 
 const router: Router = express.Router();
-router.get('/',get, getController)
+router.get('/', get, getController)
 router.post('/', urlEncoded(), error_handler, expressJson(), post, create)
 router.use('/role', role)
 router.use('/entity', entity)

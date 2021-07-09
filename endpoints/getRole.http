@@ -1,2 +1,2 @@
-GET http://localhost:3006?role=admin
+GET http://localhost:3006?name=admin
 Content-Type: application/json

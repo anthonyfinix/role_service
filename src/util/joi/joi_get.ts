@@ -1,7 +1,7 @@
 import Joi from "joi";
 
 const joi_get_query = Joi.object({
-    role:Joi.string().required()
+    name:Joi.string().required()
 }).required()
 
 export default joi_get_query;

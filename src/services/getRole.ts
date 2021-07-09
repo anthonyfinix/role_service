@@ -2,11 +2,11 @@ import Role from "../entities/roles/models/role"
 import { BadRequest } from "../util/error";
 
 export default async (filter: any) => {
-    let { role } = filter;
-    if (role) {
+    let { name } = filter;
+    if (name) {
         try {
             let result = await Role.aggregate([
-                { $match: { "name": role } },
+                { $match: { "name": name } },
                 {
                     $lookup: {
                         "from": "permissions",
